@@ -15,13 +15,14 @@ origins = [
     "http://localhost:8000",
     "http://192.168.1.150:3033",
     "http://frontend:3000",
+    "https://cmc.chavinvan.com",
     "https://cuandomecaso.chavinvan.com",  # Example: Your production domain
 ]
 
 # Add CORSMiddleware to allow cross-origin requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],  # Allows all HTTP methods
     allow_headers=["*"],  # Allows all headers
