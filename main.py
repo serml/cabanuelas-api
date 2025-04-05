@@ -13,7 +13,9 @@ origins = [
     "http://localhost:3000",  # Example: Your React development server
     "http://localhost", # local host
     "http://localhost:8000",
-    "https://your-production-domain.com",  # Example: Your production domain
+    "http://192.168.1.150:3033",
+    "http://frontend:3000",
+    "https://cuandomecaso.chavinvan.com",  # Example: Your production domain
 ]
 
 # Add CORSMiddleware to allow cross-origin requests
